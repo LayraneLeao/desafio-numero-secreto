@@ -1,5 +1,5 @@
 ﻿# Desafio Número Secreto
-Projeto desenvolvido como parte do curso **Lógica de Programação: Mergulhe em Programação com JavaScript"**, oferecido pela **Alura** em parceria com a **Oracle**, na formação **ONE - Oracle Next Education.**
+Projeto desenvolvido como parte do curso **"Lógica de Programação: Mergulhe em Programação com JavaScript"**, oferecido pela **Alura** em parceria com a **Oracle**, na formação **ONE - Oracle Next Education.**
 
 ## Tecnologias usadas:
 - HTML
