@@ -1,0 +1,66 @@
+﻿* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(23, 23, 109);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.78);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    border: 1px solid white;
+}
+
+label {
+    font-size: 23px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.digitar-numero {
+    display: flex;
+    flex-flow: column;
+    gap: 1;
+}
+
+#numero-aleatorio {
+    padding: 5px;
+    border: 2px solid rgba(23, 23, 109, 0.757);
+    border-radius: 3px;
+
+}
+
+button {
+    padding: 6px 12px;
+    background-color: rgb(23, 23, 109);
+    color: white;
+    font-size: 14px;
+    width: 150px;
+    
+}
+button:hover {
+    background-color: rgba(0, 0, 255, 0.773);
+    color: white;
+    cursor: pointer;
+}
