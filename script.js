@@ -5,9 +5,10 @@ function enviarNumero() {
     let valorDigitado = parseInt(document.getElementById("numero-aleatorio").value);
     let mensagem;
     let mensagemDica = '';
+    let numeroMaximo = 10;
 
     if (isNaN(valorDigitado) || valorDigitado < 0 || valorDigitado > 10) {
-        mensagem = 'Você não digitou um número válido! Digite um número entre 0 e 10.';
+        mensagem = `Você não digitou um número válido! Digite um número entre 0 e ${numeroMaximo}.`;
     } else {
         if (valorDigitado === numeroSecreto) {
             mensagem = `Parabéns, você acertou! O número secreto é ${numeroSecreto}.`;
